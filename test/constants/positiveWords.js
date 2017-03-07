@@ -1,6 +1,6 @@
 import positiveWords from 'constants/positiveWords';
 
-xdescribe('positiveWords', () => {
+describe('positiveWords', () => {
   it('should be an Array', () => {
     expect(positiveWords).toEqual(jasmine.any(Array));
   });

@@ -1,6 +1,6 @@
 import countBy from 'functions/countBy';
 
-xdescribe('countBy', () => {
+describe('countBy', () => {
   let wordsArray, count;
 
   beforeAll(() => {

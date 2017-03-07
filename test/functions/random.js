@@ -1,11 +1,12 @@
 import random from 'functions/random';
 
-xdescribe('random', () => {
+describe('random', () => {
   let givenNumber, randomNumber, randomNumbers;
 
   beforeAll(() => {
     givenNumber = 2;
     randomNumber = random(givenNumber);
+    //debugger;
     randomNumbers = [];
     while (randomNumbers.length < 10) {
       randomNumbers.push(random(givenNumber));

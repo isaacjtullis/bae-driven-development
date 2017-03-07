@@ -1,2 +1,2 @@
-const positiveResponses = ["that's great to hear!", "you sound so positive! that makes me happy =)"];
+const positiveResponses = ["that's great to hear!", "So glad for you because that ROCKS"];
 export default positiveResponses;

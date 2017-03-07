@@ -1,6 +1,6 @@
 import negativeResponses from 'constants/negativeResponses';
 
-xdescribe('negativeResponses', () => {
+describe('negativeResponses', () => {
   it('should be an Array', () => {
     expect(negativeResponses).toEqual(jasmine.any(Array));
   });
